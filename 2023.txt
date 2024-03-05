@@ -1,0 +1,93 @@
+2023
+
+IEE -> 227 Resultados
+
+
+1.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10095092
+	>5
+	>Forensics for Adversarial Machine Learning Through Attack Mapping Identification
+2.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10214572
+	>13
+	>Bayesian Optimization-Driven Adversarial Poisoning Attacks Against Distributed Learning
+3.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/9984930
+	>12
+	>How to Attack and Defend NextG Radio Access Network Slicing With Reinforcement Learning
+4.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10395585
+	>6
+	>Generating and Defending Against Adversarial Examples for Loan Eligibility Prediction
+5.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10182780
+	>6
+	>Defending Emotional Privacy with Adversarial Machine Learning for Social Good
+6.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10197774
+	>6
+	>Towards an Adversarial Machine Learning Framework in Cyber-Physical Systems
+7.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10382716
+	>6
+	>Accelerated Adversarial Attack Generation and Enhanced Decision Insight
+8.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/9844239
+	>8
+	>Adversarial Attacks Against Acoustic Monitoring of Industrial Machines
+9.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10155235
+	>10
+	>Adversarial Attacks Against Machine Learning-Based Resource Provisioning Systems
+10.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10030934
+	>10
+	>Do Adaptive Active Attacks Pose Greater Risk Than Static Attacks?
+11.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10005029
+	>10
+	>Robust Power System Stability Assessment Against Adversarial Machine Learning-Based Cyberattacks via Online Purification
+12.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10354067
+	>8
+	>Adversarial ML-Based Secured Cloud Architecture for Consumer Internet of Things of Smart Healthcare
+13.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10138012
+	>8
+	>Learning When to Use Adaptive Adversarial Image Perturbations Against Autonomous Vehicles
+14.https://ieeexplore-ieee-org.ezproxy.uv.mx/document/10374121
+	>15
+	>Knowing is Half the Battle: Enhancing Clean Data Accuracy of Adversarial Robust Deep Neural Networks via Dual-model Bounded Divergence Gating
+
+ACM -> 44 Resultados
+15.https://dl-acm-org.ezproxy.uv.mx/doi/10.1145/3638253
+	>51
+	>Multi-SpacePhish: Extending the Evasion-space of Adversarial Attacks against Phishing Website Detectors using Machine Learning
+16.https://dl-acm-org.ezproxy.uv.mx/doi/10.1145/3596221
+	>26
+	>Remote Perception Attacks against Camera-based Object Recognition Systems and Countermeasures
+17.https://dl-acm-org.ezproxy.uv.mx/doi/10.1145/3613244
+	>35
+	>Fraud Detection under Siege: Practical Poisoning Attacks and Defense Strategies
+
+
+Springer -> 214 Resultados
+18.https://link-springer-com.ezproxy.uv.mx/article/10.1007/s40745-022-00444-2
+	>26
+	>Machine Learning for Intelligent Data Analysis and Automation in Cybersecurity: Current and Future Prospects
+19.https://link-springer-com.ezproxy.uv.mx/article/10.1007/s10586-022-03949-w
+	>12
+	>Robust Federated Learning for execution time-based device model identification under label-flipping attack
+20.https://link-springer-com.ezproxy.uv.mx/article/10.1007/s10723-023-09684-9
+	>20
+	>Adversarial Attacks on Visual Objects Using the Fast Gradient Sign Method
+
+Sciente -> 10 Resultados
+21.https://www-sciencedirect-com.ezproxy.uv.mx/science/article/pii/S2214212622002423
+	>14
+	>Defending against adversarial machine learning attacks using hierarchical learning: A case study on network traffic attack classification
+22.https://www-sciencedirect-com.ezproxy.uv.mx/science/article/pii/S1319157823002434
+	>16
+	>Security in defect detection: A new one-pixel attack for fooling DNNs
+
+Wiley -> 45 resultados -> 9 Contenido de acceso abierto
+23.https://onlinelibrary.wiley.com/doi/10.1002/asmb.2765
+	>24
+	>Some statistical challenges in automated driving systems
+24.https://onlinelibrary.wiley.com/doi/10.1002/spy2.295
+	>26
+	>Multi-aspects AI-based modeling and adversarial learning for cybersecurity intelligence and robustness: A comprehensive overview
+25.https://onlinelibrary.wiley.com/doi/10.1111/itor.12936
+	>29
+	>Decision support issues in automated driving systems
+26.https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12334
+	>12
+	>Adversarial attack and defense methods for neural network based state estimation in smart grid
+

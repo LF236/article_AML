@@ -1,0 +1,81 @@
+AML es un campo que ha surgido en respuesta al uso de tecnicas de Aprendizaje Máquina en la industria. Este se introdujo en el año 2013 para constrarrestar las vulnerabilidades de las redes neuronales en vision artififial, sin embargo sus raices se remontan a clasificadores de spam en los 2000 (Frederickson et al. 2018) y a teorías de aprendizaje computacional en presencia de ruido malicioso en 1993 (Frederickson et al., 2018). AML se define de diversas maneras, desde llevar a cabo ataques contra sistemas basados en ML hasta examinar sus vulnerabilidades y proponer estrategias de defensa (Anthi et al., 2021; Lin & Biggio, 2021; Mehta et al., 2022; Ebrahimabadi et al., 2021; Mumcu et al., 2022). La literatura sobre AML aborda una variedad de aspectos, desde técnicas de ataque hasta medidas de mitigación, centradas en dominios específicos como procesamiento del lenguaje natural, redes vehiculares o ciberseguridad (Alsmadi et al., 2022; Qayyum et al., 2020; Martins et al., 2020; Maiorca et al., 2020; Olney & Karam, 2022). 
+
+Consideraciones previas de Aprendizaje Máquina aplicadas a Aprendizaje Máquina Adversaria 
+
+-Problemas del Aprendizaje Máquina
+
+El Aprendizaje Máquina (ML) es una tecnología ampliamente utilizada en diversos campos, pero su susceptibilidad a fallos puede ser explotada por actores malintencionados, comprometiendo la integridad, confidencialidad o disponibilidad de los modelos o sistemas de ML (Mehta et al., 2022; Wilhjelm & Younis, 2020). 
+
+No hay un algoritmo universalmente superior en ML y los adversarios están cada vez más interesados en atacar sistemas basados en ML, motivados por el robo de información, sabotaje u objetivos económicos (Anthi et al., 2021; Mehta et al., 2022). La implementación de medidas de seguridad en modelos de ML es un desafío constante, ya que tanto defensores como atacantes evolucionan continuamente en sus herramientas y técnicas (U. Verma et al., 2022). En el contexto de la creciente adopción de sistemas basados en ML, es esencial que los usuarios finales y los profesionales de la implementación reconozcan su responsabilidad en asegurar la protección de estos sistemas (Usama et al., 2020).
+
+El Aprendizaje Máquina Adversaria (AML) ha surgido como una amenaza significativa para las aplicaciones basadas en ML, buscando socavar la adaptabilidad de los modelos de ML y convertirla en una desventaja (Ayub et al., 2020; Lagesse et al., 2016). Estas amenazas plantean desafíos importantes en la seguridad y confiabilidad de las aplicaciones de ML, destacando la necesidad de comprender y abordar el campo del AML para proteger adecuadamente nuestras infraestructuras y sistemas.
+
+Los objetivos del AML incluyen degradar el rendimiento de un modelo de ML, manipular los datos de entrenamiento para violar políticas de seguridad, obtener información sobre inteligencia de amenazas y conocer las capacidades del adversario (Yeboah-Ofori et al., 2021). Estos objetivos establecen la base para el desarrollo de estrategias de ataque y defensa. Por ejemplo, los ataques de AML buscan alterar los datos y etiquetas para comprometer los modelos de ML, mientras que las medidas de mitigación buscan aumentar la robustez de los modelos para hacer frente a estos ataques sin comprometer su rendimiento (Usama et al., 2020; F. O. Catak et al., 2022).
+
+Un ejemplo de los objetivos del AML son las perturbaciones adversarias que representan una amenaza significativa para las aplicaciones de Aprendizaje Máquina, introduciendo cambios mínimos en los datos de entrada para confundir los modelos y generar salidas incorrectas (Usama et al., 2019; Tang et al., 2019). Estos ataques buscan comprometer el rendimiento de los modelos al sobrepasar los límites de decisión, induciendo errores en las predicciones (Khalid et al., 2019).
+
+La comprensión y mitigación de estos ataques son esenciales para el desarrollo de sistemas inteligentes seguros y confiables, lo que garantiza la integridad y la confianza de los usuarios en una amplia gama de aplicaciones (Guesmi et al., 2022).
+
+Ataques de Aprendizaje Máquina Adversaria
+
+Las estrategias de los adversarios para degradar el rendimiento de los modelos, incluyen la modificación de la entrada original del clasificador mediante pequeñas perturbaciones (Lin & Biggio, 2021).
+
+Los adversarios calculan el gradiente de pérdida de una etiqueta con respecto a la entrada en el modelo para manipular la función de pérdida y lograr una clasificación incorrecta (Guihai & Sikdar, 2021). Un aspecto importante para el exito de un ataque de AML es cómo los humanos pueden tener dificultades para distinguir entre ejemplos normales y maliciosos, especialmente cuando se alteran sutilmente los datos de salida durante la fase de clasificación (Mehta et al., 2022).
+
+El Aprendizaje Máquina Adversaria se ha convertido en una categoría de ataques duradera, lo que requiere una atención continua y estrategias de mitigación en constante desarrollo (Lin & Biggio, 2021; Hao & Tao, 2022). Conocer estos ataques es crucial para anticiparse a ellos y proteger los sistemas de Aprendizaje Máquina, lo que puede ahorrar costos y fortalecer la seguridad de los sistemas (Guihai & Sikdar, 2021).
+
+-Dominios de Aprendizaje Máquina Adversaria
+
+El principal desafío al aplicar técnicas de Aprendizaje Máquina Adversaria es la falta de investigación diversa, principalmente centrada en el reconocimiento de imágenes (Li et al., 2020; Hao & Tao, 2022; Marulli et al., 2021; Zizzo et al., 2019), dejando otros dominios como la ciberseguridad y el procesamiento de audio poco explorados. Esta disparidad se debe a que, a diferencia de los ataques en imágenes donde alterar un píxel tiene un impacto limitado, en otros contextos, como modificar un byte en un archivo de audio, un pequeño cambio puede hacer que el archivo se vuelva disfuncional o se corrompa, lo que representa un desafío importante en la creación de ataques adversarios en dominios donde la integridad y funcionalidad son críticas.
+
+--Imagen
+
+La investigación en Aprendizaje Máquina Adversaria ha estado predominantemente centrada en la visión por computadora, particularmente en el procesamiento de imágenes (Verma et al., 2022; Zhang & Sikdar, 2022). El AML se introdujo inicialmente como un método engañoso contra las redes neuronales en este campo (Zhang & Sikdar, 2022). Aunque se ha aplicado también en sistemas biométricos, marcas de agua y detección de anomalías en videos. Los modelos de Aprendizaje Profundo (Deep Learning) han demostrado ser particularmente efectivos en la clasificación de imágenes, como evidencia el uso de Google en su servicio de búsqueda de imágenes (Shinde & Shah, 2018).
+
+Sin embargo, estos modelos son altamente vulnerables a ejemplos adversarios que pueden engañarlos para producir resultados incorrectos (Hao & Tao, 2022; Seo et al., 2022). Por ejemplo, en 2013, Szegedy demostró que las Redes Neuronales Profundas (DNN) pueden ser engañadas por imágenes manipuladas de manera imperceptible (Khalid et al., 2019). Los ataques adversarios en visión por computadora a menudo siguen una metodología de dos pasos, donde se introduce ruido aleatorio en la imagen objetivo para medir su imperceptibilidad, ajustándolo hasta que se logre un ejemplo adversario (Khalid et al., 2019).
+
+Estos ataques pueden presentarse como modificaciones en los valores de píxeles de una imagen, engañando al modelo para interpretarla incorrectamente (Zhang & Sikdar, 2022; Edwards & Rawat, 2020). Otro ataque que pertenece al dominio de la imágen es el presentado por Quiring y Rieck (2018) quienes hacen un ataque contra esquemas de marcas de agua, utilizando un modelo sustituto basado en una Red Neuronal Profunda para engañar al detector de marcas de agua original. Este ataque, conocido como C&W, destaca por su efectividad y no requiere un conocimiento detallado del esquema de marcas de agua original.
+
+--Procesamiento de Lenguaje Natural (NLP)
+
+En el dominio del Procesamiento de Lenguaje Natural (NLP), los ataques adversarios presentan desafíos distintos a los observados en el procesamiento de imágenes. Marulli et al. (2021) destacan que los ataques diseñados para sistemas de imágenes no son efectivos cuando se aplican a representaciones vectoriales utilizadas en NLP. Edwards y Rawat (2020) señalan que los ejemplos adversarios en NLP pueden afectar el rendimiento del modelo al modificar semántica, ortografía o frases completas, aunque estas perturbaciones suelen ser perceptibles. Por ejemplo, Cresci et al. (2022) describen ataques contra sistemas de detección de noticias falsas, como "TextBugger", que manipulan el contenido de noticias para engañar clasificadores. Estos ataques influyen en el título, contenido o fuente de una noticia para revertir el resultado del clasificador. 
+
+--Dominio inalámbrico 
+
+En el ámbito inalámbrico, el aumento del uso de aplicaciones de Aprendizaje Máquina ha suscitado la necesidad de comprender los desafíos de seguridad asociados. Shi et al. (2019) señalan una falta de investigación sobre ataques de Aprendizaje Máquina Adversaria en la clasificación del tráfico de red, posiblemente debido a la complejidad de alterar los paquetes de datos sin cambiar su significado. Davaslioglu & Sagduyu (2019) presentan un ejemplo de ataque en el dominio inalámbrico, utilizando un ataque de envenenamiento tipo Backdoor para manipular el comportamiento de un modelo de Aprendizaje Máquina durante la fase de pruebas.
+
+Por otro lado, Usama et al. (2019) y Usama, Qayyum, et al. (2019) investigan ataques adversarios en redes cognitivas autónomas y en sistemas de clasificación del tráfico TOR, respectivamente. Ambos estudios revelan que tanto los modelos de modulación basados en Aprendizaje Máquina como las técnicas de Deep Learning son vulnerables a ataques adversarios.
+
+Además, Catak et al. (2021) destacan la importancia de la seguridad en las redes 6G y proponen el uso del "Fast Gradient Sign Method" (FGSM) para generar muestras adversarias y fortalecer la robustez de los modelos de Aprendizaje Máquina.
+
+
+--Ciberseguridad
+
+El ámbito de la ciberseguridad enfrenta desafíos únicos en relación con los ataques de Aprendizaje Máquina Adversaria (AMA). Los sistemas de Aprendizaje Máquina (ML) en seguridad informática son más complejos y dinámicos, lo que los hace más vulnerables a ataques, aunque la investigación en este campo aún es limitada (Yeboah-Ofori et al., 2021; Shi et al., 2019).
+
+Ataques contra sistemas DNS: Jin et al. (2019) abordan los ataques de envenenamiento a servidores DNS, destacando la importancia de técnicas de defensa como el entrenamiento adversario.
+
+Ataques contra IDS: Anthi et al. (2021) y Ayub et al. (2020) investigan ataques de AML contra modelos de detección de intrusos (IDS), revelando una notable disminución en la precisión de los modelos después de ser atacados.
+
+Ataques contra sistemas de detección de malware y SPAM: Chen et al. (2017) describen un ataque de evasión llamado "EnvAttack" que manipula características de malware para evadir la detección. Además, Yeboah-Ofori et al. (2021) mencionan ataques de AML en sistemas de detección de SPAM, resaltando la importancia de la defensa contra estos ataques.
+
+--Estados cuanticos y audio
+
+Los modelos de clasificación basados en Aprendizaje Automático (ML) cuánticos ofrecen eficiencia en la clasificación de grandes volúmenes de datos, aunque enfrentan desafíos de seguridad similares a los modelos tradicionales. Edwards y Rawat (2020) advierten sobre el impacto negativo que pueden tener los ejemplos adversarios en los modelos de ML cuánticos, destacando la posibilidad de ataques como el Método del Signo de Gradiente Rápido (FGSM) y el riesgo de ataques de transferencia, aunque este último aún no se ha explorado ampliamente.
+
+Es esencial realizar una revisión exhaustiva de las vulnerabilidades de los modelos de ML cuánticos antes de su implementación en producción, abordando las debilidades existentes para garantizar su robustez y seguridad.
+
+En el dominio del procesamiento de audio, los ejemplos adversarios son menos explorados pero pueden tener un impacto significativo en el rendimiento de los modelos. Lin y Biggio (2021) presentan un caso de ataque adversario de evasión basado en audio dirigido al sistema de reconocimiento de voz a texto de Mozilla DeepSpeech, donde la inclusión de ruidos apenas perceptibles comprometió la precisión del modelo, resaltando la vulnerabilidad en este contexto específico.
+
+-Perturbaciones
+
+El concepto de perturbaciones o muestras adversarias es fundamental en el ámbito del Aprendizaje Máquina Adversaria (AML), donde los atacantes introducen datos maliciosos durante el entrenamiento y las pruebas de modelos de clasificación de Aprendizaje Máquina (ML) para engañar a estos modelos. Estas perturbaciones, casi imperceptibles para los humanos pero capaces de inducir clasificaciones incorrectas en los modelos, representan un desafío de seguridad significativo (Yeboah-Ofori et al., 2021; Ntalampiras, 2023; Usama et al., 2019; Guihai & Sikdar, 2021; McDaniel et al., 2016).
+
+Christian Szegedy y sus colegas fueron los primeros en destacar la vulnerabilidad de las redes neuronales profundas frente a estas perturbaciones casi imperceptibles en las entradas, lo que puede llevar a predicciones erróneas en los modelos (Szegedy et al., 2013, citado por Liu et al., 2020).
+
+Estas perturbaciones, también llamadas ejemplos adversarios, pueden ser diseñadas para maximizar el error de predicción del modelo (Usama et al., 2020; Khalid et al., 2019; Kurakin et al., 2016; Verma et al., 2022; Cresci et al., 2022; Seo et al., 2022). Pueden afectar diversos sistemas de ML, siendo los sistemas de Deep Learning especialmente vulnerables (Guihai & Sikdar, 2021; Kurakin et al., 2016; Tian et al., 2022; Liu et al., 2020; Marulli et al., 2021). La capacidad de transferibilidad de estas perturbaciones, es decir, su efectividad en diferentes modelos, es un aspecto importante a considerar (Lin & Biggio, 2021; Quiring & Rieck, 2018).
+
+La generación de estas perturbaciones se ha convertido en un área de investigación activa, con métodos como el Fast Gradient Sign Method (FGSM) utilizado para crear perturbaciones óptimas (Davaslioglu & Sagduyu, 2019).
+
+Además de su uso en la generación de ataques, las perturbaciones adversarias también tienen aplicaciones en la ofuscación de modelos de ML, ayudando a proteger los modelos contra ataques maliciosos (G. Verma et al., 2018).
+

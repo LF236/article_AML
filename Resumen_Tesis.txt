@@ -1,0 +1,127 @@
+AML es un campo que ha surgido en respuesta al uso de tecnicas de Aprendizaje Máquina en la industria. Este se introdujo en el año 2013 para constrarrestar las vulnerabilidades de las redes neuronales en vision artififial, sin embargo sus raices se remontan a clasificadores de spam en los 2000 (Frederickson et al. 2018) y a teorías de aprendizaje computacional en presencia de ruido malicioso en 1993 (Frederickson et al., 2018). AML se define de diversas maneras, desde llevar a cabo ataques contra sistemas basados en ML hasta examinar sus vulnerabilidades y proponer estrategias de defensa (Anthi et al., 2021; Lin & Biggio, 2021; Mehta et al., 2022; Ebrahimabadi et al., 2021; Mumcu et al., 2022). La literatura sobre AML aborda una variedad de aspectos, desde técnicas de ataque hasta medidas de mitigación, centradas en dominios específicos como procesamiento del lenguaje natural, redes vehiculares o ciberseguridad (Alsmadi et al., 2022; Qayyum et al., 2020; Martins et al., 2020; Maiorca et al., 2020; Olney & Karam, 2022). 
+
+Consideraciones previas de Aprendizaje Máquina aplicadas a Aprendizaje Máquina Adversaria 
+
+-Problemas del Aprendizaje Máquina
+
+El Aprendizaje Máquina (ML) es una tecnología ampliamente utilizada en diversos campos, pero su susceptibilidad a fallos puede ser explotada por actores malintencionados, comprometiendo la integridad, confidencialidad o disponibilidad de los modelos o sistemas de ML (Mehta et al., 2022; Wilhjelm & Younis, 2020). 
+
+No hay un algoritmo universalmente superior en ML y los adversarios están cada vez más interesados en atacar sistemas basados en ML, motivados por el robo de información, sabotaje u objetivos económicos (Anthi et al., 2021; Mehta et al., 2022). La implementación de medidas de seguridad en modelos de ML es un desafío constante, ya que tanto defensores como atacantes evolucionan continuamente en sus herramientas y técnicas (U. Verma et al., 2022). En el contexto de la creciente adopción de sistemas basados en ML, es esencial que los usuarios finales y los profesionales de la implementación reconozcan su responsabilidad en asegurar la protección de estos sistemas (Usama et al., 2020).
+
+El Aprendizaje Máquina Adversaria (AML) ha surgido como una amenaza significativa para las aplicaciones basadas en ML, buscando socavar la adaptabilidad de los modelos de ML y convertirla en una desventaja (Ayub et al., 2020; Lagesse et al., 2016). Estas amenazas plantean desafíos importantes en la seguridad y confiabilidad de las aplicaciones de ML, destacando la necesidad de comprender y abordar el campo del AML para proteger adecuadamente nuestras infraestructuras y sistemas.
+
+Los objetivos del AML incluyen degradar el rendimiento de un modelo de ML, manipular los datos de entrenamiento para violar políticas de seguridad, obtener información sobre inteligencia de amenazas y conocer las capacidades del adversario (Yeboah-Ofori et al., 2021). Estos objetivos establecen la base para el desarrollo de estrategias de ataque y defensa. Por ejemplo, los ataques de AML buscan alterar los datos y etiquetas para comprometer los modelos de ML, mientras que las medidas de mitigación buscan aumentar la robustez de los modelos para hacer frente a estos ataques sin comprometer su rendimiento (Usama et al., 2020; F. O. Catak et al., 2022).
+
+Un ejemplo de los objetivos del AML son las perturbaciones adversarias que representan una amenaza significativa para las aplicaciones de Aprendizaje Máquina, introduciendo cambios mínimos en los datos de entrada para confundir los modelos y generar salidas incorrectas (Usama et al., 2019; Tang et al., 2019). Estos ataques buscan comprometer el rendimiento de los modelos al sobrepasar los límites de decisión, induciendo errores en las predicciones (Khalid et al., 2019).
+
+La comprensión y mitigación de estos ataques son esenciales para el desarrollo de sistemas inteligentes seguros y confiables, lo que garantiza la integridad y la confianza de los usuarios en una amplia gama de aplicaciones (Guesmi et al., 2022).
+
+Ataques de Aprendizaje Máquina Adversaria
+
+Las estrategias de los adversarios para degradar el rendimiento de los modelos, incluyen la modificación de la entrada original del clasificador mediante pequeñas perturbaciones (Lin & Biggio, 2021).
+
+Los adversarios calculan el gradiente de pérdida de una etiqueta con respecto a la entrada en el modelo para manipular la función de pérdida y lograr una clasificación incorrecta (Guihai & Sikdar, 2021). Un aspecto importante para el exito de un ataque de AML es cómo los humanos pueden tener dificultades para distinguir entre ejemplos normales y maliciosos, especialmente cuando se alteran sutilmente los datos de salida durante la fase de clasificación (Mehta et al., 2022).
+
+El Aprendizaje Máquina Adversaria se ha convertido en una categoría de ataques duradera, lo que requiere una atención continua y estrategias de mitigación en constante desarrollo (Lin & Biggio, 2021; Hao & Tao, 2022). Conocer estos ataques es crucial para anticiparse a ellos y proteger los sistemas de Aprendizaje Máquina, lo que puede ahorrar costos y fortalecer la seguridad de los sistemas (Guihai & Sikdar, 2021).
+
+-Dominios de Aprendizaje Máquina Adversaria
+
+El principal desafío al aplicar técnicas de Aprendizaje Máquina Adversaria es la falta de investigación diversa, principalmente centrada en el reconocimiento de imágenes (Li et al., 2020; Hao & Tao, 2022; Marulli et al., 2021; Zizzo et al., 2019), dejando otros dominios como la ciberseguridad y el procesamiento de audio poco explorados. Esta disparidad se debe a que, a diferencia de los ataques en imágenes donde alterar un píxel tiene un impacto limitado, en otros contextos, como modificar un byte en un archivo de audio, un pequeño cambio puede hacer que el archivo se vuelva disfuncional o se corrompa, lo que representa un desafío importante en la creación de ataques adversarios en dominios donde la integridad y funcionalidad son críticas.
+
+--Imagen
+
+La investigación en Aprendizaje Máquina Adversaria ha estado predominantemente centrada en la visión por computadora, particularmente en el procesamiento de imágenes (Verma et al., 2022; Zhang & Sikdar, 2022). El AML se introdujo inicialmente como un método engañoso contra las redes neuronales en este campo (Zhang & Sikdar, 2022). Aunque se ha aplicado también en sistemas biométricos, marcas de agua y detección de anomalías en videos. Los modelos de Aprendizaje Profundo (Deep Learning) han demostrado ser particularmente efectivos en la clasificación de imágenes, como evidencia el uso de Google en su servicio de búsqueda de imágenes (Shinde & Shah, 2018).
+
+Sin embargo, estos modelos son altamente vulnerables a ejemplos adversarios que pueden engañarlos para producir resultados incorrectos (Hao & Tao, 2022; Seo et al., 2022). Por ejemplo, en 2013, Szegedy demostró que las Redes Neuronales Profundas (DNN) pueden ser engañadas por imágenes manipuladas de manera imperceptible (Khalid et al., 2019). Los ataques adversarios en visión por computadora a menudo siguen una metodología de dos pasos, donde se introduce ruido aleatorio en la imagen objetivo para medir su imperceptibilidad, ajustándolo hasta que se logre un ejemplo adversario (Khalid et al., 2019).
+
+Estos ataques pueden presentarse como modificaciones en los valores de píxeles de una imagen, engañando al modelo para interpretarla incorrectamente (Zhang & Sikdar, 2022; Edwards & Rawat, 2020). Otro ataque que pertenece al dominio de la imágen es el presentado por Quiring y Rieck (2018) quienes hacen un ataque contra esquemas de marcas de agua, utilizando un modelo sustituto basado en una Red Neuronal Profunda para engañar al detector de marcas de agua original. Este ataque, conocido como C&W, destaca por su efectividad y no requiere un conocimiento detallado del esquema de marcas de agua original.
+
+--Procesamiento de Lenguaje Natural (NLP)
+
+En el dominio del Procesamiento de Lenguaje Natural (NLP), los ataques adversarios presentan desafíos distintos a los observados en el procesamiento de imágenes. Marulli et al. (2021) destacan que los ataques diseñados para sistemas de imágenes no son efectivos cuando se aplican a representaciones vectoriales utilizadas en NLP. Edwards y Rawat (2020) señalan que los ejemplos adversarios en NLP pueden afectar el rendimiento del modelo al modificar semántica, ortografía o frases completas, aunque estas perturbaciones suelen ser perceptibles. Por ejemplo, Cresci et al. (2022) describen ataques contra sistemas de detección de noticias falsas, como "TextBugger", que manipulan el contenido de noticias para engañar clasificadores. Estos ataques influyen en el título, contenido o fuente de una noticia para revertir el resultado del clasificador. 
+
+--Dominio inalámbrico 
+
+En el ámbito inalámbrico, el aumento del uso de aplicaciones de Aprendizaje Máquina ha suscitado la necesidad de comprender los desafíos de seguridad asociados. Shi et al. (2019) señalan una falta de investigación sobre ataques de Aprendizaje Máquina Adversaria en la clasificación del tráfico de red, posiblemente debido a la complejidad de alterar los paquetes de datos sin cambiar su significado. Davaslioglu & Sagduyu (2019) presentan un ejemplo de ataque en el dominio inalámbrico, utilizando un ataque de envenenamiento tipo Backdoor para manipular el comportamiento de un modelo de Aprendizaje Máquina durante la fase de pruebas.
+
+Por otro lado, Usama et al. (2019) y Usama, Qayyum, et al. (2019) investigan ataques adversarios en redes cognitivas autónomas y en sistemas de clasificación del tráfico TOR, respectivamente. Ambos estudios revelan que tanto los modelos de modulación basados en Aprendizaje Máquina como las técnicas de Deep Learning son vulnerables a ataques adversarios.
+
+Además, Catak et al. (2021) destacan la importancia de la seguridad en las redes 6G y proponen el uso del "Fast Gradient Sign Method" (FGSM) para generar muestras adversarias y fortalecer la robustez de los modelos de Aprendizaje Máquina.
+
+
+--Ciberseguridad
+
+El ámbito de la ciberseguridad enfrenta desafíos únicos en relación con los ataques de Aprendizaje Máquina Adversaria (AMA). Los sistemas de Aprendizaje Máquina (ML) en seguridad informática son más complejos y dinámicos, lo que los hace más vulnerables a ataques, aunque la investigación en este campo aún es limitada (Yeboah-Ofori et al., 2021; Shi et al., 2019).
+
+Ataques contra sistemas DNS: Jin et al. (2019) abordan los ataques de envenenamiento a servidores DNS, destacando la importancia de técnicas de defensa como el entrenamiento adversario.
+
+Ataques contra IDS: Anthi et al. (2021) y Ayub et al. (2020) investigan ataques de AML contra modelos de detección de intrusos (IDS), revelando una notable disminución en la precisión de los modelos después de ser atacados.
+
+Ataques contra sistemas de detección de malware y SPAM: Chen et al. (2017) describen un ataque de evasión llamado "EnvAttack" que manipula características de malware para evadir la detección. Además, Yeboah-Ofori et al. (2021) mencionan ataques de AML en sistemas de detección de SPAM, resaltando la importancia de la defensa contra estos ataques.
+
+--Estados cuanticos y audio
+
+Los modelos de clasificación basados en Aprendizaje Automático (ML) cuánticos ofrecen eficiencia en la clasificación de grandes volúmenes de datos, aunque enfrentan desafíos de seguridad similares a los modelos tradicionales. Edwards y Rawat (2020) advierten sobre el impacto negativo que pueden tener los ejemplos adversarios en los modelos de ML cuánticos, destacando la posibilidad de ataques como el Método del Signo de Gradiente Rápido (FGSM) y el riesgo de ataques de transferencia, aunque este último aún no se ha explorado ampliamente.
+
+Es esencial realizar una revisión exhaustiva de las vulnerabilidades de los modelos de ML cuánticos antes de su implementación en producción, abordando las debilidades existentes para garantizar su robustez y seguridad.
+
+En el dominio del procesamiento de audio, los ejemplos adversarios son menos explorados pero pueden tener un impacto significativo en el rendimiento de los modelos. Lin y Biggio (2021) presentan un caso de ataque adversario de evasión basado en audio dirigido al sistema de reconocimiento de voz a texto de Mozilla DeepSpeech, donde la inclusión de ruidos apenas perceptibles comprometió la precisión del modelo, resaltando la vulnerabilidad en este contexto específico.
+
+-Perturbaciones
+
+El concepto de perturbaciones o muestras adversarias es fundamental en el ámbito del Aprendizaje Máquina Adversaria (AML), donde los atacantes introducen datos maliciosos durante el entrenamiento y las pruebas de modelos de clasificación de Aprendizaje Máquina (ML) para engañar a estos modelos. Estas perturbaciones, casi imperceptibles para los humanos pero capaces de inducir clasificaciones incorrectas en los modelos, representan un desafío de seguridad significativo (Yeboah-Ofori et al., 2021; Ntalampiras, 2023; Usama et al., 2019; Guihai & Sikdar, 2021; McDaniel et al., 2016).
+
+Christian Szegedy y sus colegas fueron los primeros en destacar la vulnerabilidad de las redes neuronales profundas frente a estas perturbaciones casi imperceptibles en las entradas, lo que puede llevar a predicciones erróneas en los modelos (Szegedy et al., 2013, citado por Liu et al., 2020).
+
+Estas perturbaciones, también llamadas ejemplos adversarios, pueden ser diseñadas para maximizar el error de predicción del modelo (Usama et al., 2020; Khalid et al., 2019; Kurakin et al., 2016; Verma et al., 2022; Cresci et al., 2022; Seo et al., 2022). Pueden afectar diversos sistemas de ML, siendo los sistemas de Deep Learning especialmente vulnerables (Guihai & Sikdar, 2021; Kurakin et al., 2016; Tian et al., 2022; Liu et al., 2020; Marulli et al., 2021). La capacidad de transferibilidad de estas perturbaciones, es decir, su efectividad en diferentes modelos, es un aspecto importante a considerar (Lin & Biggio, 2021; Quiring & Rieck, 2018).
+
+La generación de estas perturbaciones se ha convertido en un área de investigación activa, con métodos como el Fast Gradient Sign Method (FGSM) utilizado para crear perturbaciones óptimas (Davaslioglu & Sagduyu, 2019).
+
+Además de su uso en la generación de ataques, las perturbaciones adversarias también tienen aplicaciones en la ofuscación de modelos de ML, ayudando a proteger los modelos contra ataques maliciosos (G. Verma et al., 2018).
+
+-Taxonomia 
+
+Dentro del campo del Aprendizaje Máquina Adversaria (AML), varias propuestas de clasificación han surgido para categorizar las técnicas de ataques:
+	-Taxonomía del NITS: Desarrollada por el Instituto Nacional de Estándares y Tecnología (NITS), divide los ataques en tres categorías principales: objetivos, técnicas y conocimiento (Tabassi et al., 2019).
+	-Propuesta de Barreño: Organiza los ataques en tres ejes: influencia, violación de seguridad y especificidad (Barreno et al., 2006).
+	-Categorización de Papernot: Considera la complejidad del ataque y el conocimiento del adversario sobre el modelo atacado (Papernot et al., 2016).
+	-Taxonomía de Khalid et al.: Clasifica los ataques en tres categorías principales según el momento y método de ataque: entrenamiento, inferencia e implementación de hardware (Khalid et al., 2019).
+	-Clasificación de Olney & Karam: Distingue entre ataques causales, dirigidos a subvertir el proceso de entrenamiento, y exploratorios, destinados a exponer información sobre la arquitectura subyacente del modelo (Olney & Karam, 2022).
+
+Otras formas de clasificar los ataques de AML son:
+	1.Ataques según el tipo de violación de seguridad:
+		-Ataques de confiabilidad: Buscan maximizar el error de predicción del modelo, haciéndolo inútil, especialmente crítico en aplicaciones como seguridad y atención médica (Ma et al., 2020).
+		-Ataques de integridad: Afectan la precisión del modelo al causar clasificaciones incorrectas y altas tasas de error, comunes en entornos adversarios durante la operación de sistemas de ML (Anthi et al., 2021).
+		-Ataques de disponibilidad: Pretenden impedir la utilidad del sistema, induciendo errores en el modelo o denegando servicios, siendo conocidos también como ataques de envenenamiento (Mehta et al., 2022).
+	2.Ataques según la especificidad del ataque:
+		-Ataques dirigidos: Tienen un objetivo específico en mente, como cambiar la predicción del modelo a una salida fija y alternativa en un conjunto de datos específico (Mehta et al., 2022).
+		-Ataques indiscriminados: Carecen de un objetivo específico y buscan alterar las clasificaciones de manera aleatoria (Liu et al., 2020).
+		-Ataques combinados: Algunas metodologías, como FaDec propuesta por Khalid et al. (2020), pueden fusionar elementos de ataques dirigidos y no dirigidos para maximizar la eficiencia del ataque.
+	4.Ataques en relación al impacto en el proceso de aprendizaje:
+		-Ataques en Fase de Pruebas: Conocidos como ataques exploratorios, buscan manipular datos "no etiquetados" para evitar la detección durante la etapa de pruebas o inferencia (Ma et al., 2020).
+		-Ataques en Fase de Entrenamiento: También llamados ataques causales, subvierten el proceso de entrenamiento al introducir ejemplos adversarios en el conjunto de datos de entrenamiento (Olney & Karam, 2022).
+	5.Ataques en relación a la información (conocimiento) del adversario:
+		-Ataques de caja blanca: El adversario tiene acceso completo a la información del modelo, facilitando la generación de perturbaciones adversarias (Ma et al., 2020).
+		-Ataques de caja negra: El adversario carece de información sobre el modelo, construyendo un modelo sustituto para generar el ataque y aprovechando la transferibilidad (Verma et al., 2022).
+		-Ataques de caja gris: El adversario opera con información parcial sobre el modelo, buscando influir en las fases de entrenamiento y prueba (Ayub et al., 2020).
+
+Ataques de evasión
+
+Los ataques de evasión, conocidos como Evassion Attacks, ocurren durante la fase de pruebas de un modelo de Aprendizaje Máquina. El objetivo es manipular los datos "NO ETIQUETADOS" para evitar la detección durante la etapa de prueba, sin alterar el proceso de entrenamiento (Ma et al., 2020; Olney & Karam, 2022; Venkatesan et al., 2021; Chen et al., 2017; Ebrahimabadi et al., 2021; Khalid et al., 2019; Zizzo et al., 2019; Catak et al., 2021; Anthi et al., 2021; Sun et al., 2022; Olney & Karam, 2022). Esto implica agregar ruido cuidadosamente a las instancias de los datos de prueba para crear perturbaciones adversarias (Ma et al., 2020; Lin & Biggio, 2021; Khalid et al., 2019), lo que permite evadir la capacidad del modelo existente (Hao & Tao, 2022). Estas perturbaciones pueden hacer que los modelos clasifiquen erróneamente las instancias como legítimas, lo que facilita ataques dirigidos o indiscriminados (F. O. Catak et al., 2022; Quiring & Rieck, 2018; Mehta et al., 2022). Ampliamente estudiados, estos ataques representan una amenaza importante, ya que pueden duplicar la probabilidad de error y no requieren modificar la estructura del modelo (Olney & Karam, 2022; Venkatesan et al., 2021). Este tipo de ataques se basan en gradientes y son más poderosos que los ataques sin gradientes, como el Fast Gradient Sign Method, el Iterative Gradient Sign o el ataque de C&W (Zizzo et al., 2019). Un ejemplo es el descrito por Verma et al. (2022), donde se alteran muestras de malware para evitar la detección. Catak et al. (2021) señalan que estos ataques se utilizan en casos de phishing, spam y análisis de malware. Además, W. Li et al. (2022) detallan un ataque que engaña a un clasificador SVM, técnica aplicable a SVM lineales según Frederickson et al. (2018). Estos ataques, también llamados ataques exploratorios, buscan exponer la arquitectura del modelo al proporcionar ejemplos contradictorios (Frederickson et al., 2018; Olney & Karam, 2022).		
+
+Lista de ataques de evasión 
+
+Fast Gradient Sign Method (FGSM)
+
+El Fast Gradient Sign Method (FGSM), propuesto por Ian Goodfellow, busca aproximar linealmente la función de costo cerca de las muestras legítimas para generar rápidamente perturbaciones adversarias (Goodfellow et al., 2014, citado por Verma et al., 202; Goodfellow et al., 2014, citado por Liu et al., 2020). Este método se basa en el uso de gradientes para calcular perturbaciones que aumenten la función de pérdida y evadan la detección del modelo (Usama, Qayyum, et al., 2019; Usama et al., 2020; Usama et al., 2019; Kurakin et al., 2016; F. O. Catak et al., 2022; Catak et al., 2021). FGSM puede realizar ataques dirigidos y no dirigidos, controlando la norma L1, L2 o L∞ de la alteración (Ntalampiras, 2023). Aunque es simple y eficiente computacionalmente, se señalan debilidades, como su falta de robustez y su desempeño deficiente con gradientes pequeños (Zizzo et al., 2019; Usama et al., 2019; Mehta et al., 2022).
+
+Existen variantes del FGSM, como el Fast Gradient Value (FGV), que maximiza la pérdida en un solo paso (Guihai & Sikdar, 2021), y el Iterative Gradient Sign (IFGS), que agrega perturbaciones en múltiples iteraciones (Liu et al., 2020; Zizzo et al., 2019). Además, está el Projected Gradient Descent (PGD), una versión iterativa del FGSM que utiliza el algoritmo de retropropagación (Zhang & Sikdar, 2022). También se menciona el Basic Iterative Method (BIM), que aplica un método iterativo de optimización para generar perturbaciones (Usama et al., 2018, citado por Usama et al., 2020; F. O. Catak et al., 2022). Una variante del BIM es el Momentum Iterative Method (MIM), que introduce un impulso en el proceso (F. O. Catak et al., 2022). Finalmente, el Iterative Least-Likely Class Method, utilizado contra el modelo "Inception", demuestra su superioridad sobre las defensas adversarias (Kurakin et al., 2016).
+
+Ataque Jacobian-based Saliency Map Attack JSMA 
+
+
+El Jacobian-based Saliency Map Attack (JSMA), creado por Nicolas Papernot y colaboradores, es una estrategia iterativa para generar muestras adversarias, utilizando el jacobiano del modelo para determinar las perturbaciones necesarias para lograr una clasificación específica por parte del atacante (Papernot et al., p. 372-387 2016, citado por McDaniel et al., 2016; Papernot et al., p. 372-387 2016, citado por Usama, Qayyum, et al., 2019; Papernot et al., p. 372-387 2016, citado por Usama et al., 2020). 
+
+Mehta et al. (2022) destacan que, en el contexto de un clasificador de imágenes, este enfoque manipula los píxeles de una imagen, saturándolos con sus valores máximos y mínimos para inducir una clasificación errónea. Además, Verma et al. (2022) presentan una aplicación en la que se utiliza el ataque JSMA en un sistema de clasificación de malware, demostrando los desafíos adicionales que presenta este tipo de clasificación debido a la naturaleza de los archivos PE. Otro caso ilustrativo es presentado por Ayub et al. (2020), donde el ataque JSMA se utiliza en sistemas basados en Aprendizaje Automático para la detección de intrusos (IDS), generando muestras de datos que confunden al modelo entrenado para clasificar datos maliciosos como benignos.
+
+

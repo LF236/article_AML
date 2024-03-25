@@ -1,0 +1,37 @@
+Desafíos en la implementación y recomendaciones para la implementación de Aprendizaje Máquina Adversaria
+
+La implementación práctica del Aprendizaje Máquina Adversaria enfrenta desafíos debido a la falta de investigaciones aplicables y al constante avance de las estrategias adversarias. Algunas organizaciones carecen de herramientas adecuadas y enfrentan brechas entre expectativas y realidad en términos de seguridad. Además, la interacción limitada entre comunidades, como estadística y Aprendizaje Máquina, dificulta aún más la implementación. Abordar estas deficiencias requiere un exhaustivo mapeo de las relaciones de seguridad, una tarea compleja para las organizaciones (Li et al., 2022; Siva Kumar et al., 2020; Zizzo et al., 2019; Yeboah-Ofori et al., 2021).
+
+
+-Problemas al implementar ataques de Aprendizaje Máquina Adversaria
+
+Implementar ataques de Aprendizaje Máquina Adversaria presenta desafíos, ya que los atacantes pueden tener conocimientos variables sobre estos métodos (Ma et al., 2020). La complejidad radica en la dificultad para que un atacante conozca completamente el modelo, lo que se conoce como un ataque de "caja negra" (Khalid et al., 2020). Usama et al. (2020) indican que explotar los detalles de una implementación de aprendizaje automático requiere esfuerzo, tiempo y experiencia. Esta complejidad limita la exploración exhaustiva de ataques de Aprendizaje Máquina Adversaria en diversos ámbitos prácticos, como redes cognitivas autónomas y clasificación de tráfico de red (Usama et al., 2020). Además, la falta de acceso detallado al modelo por parte del atacante dificulta aún más la investigación en seguridad relacionada con modelos de aprendizaje automático (Wilhjelm & Younis, 2020). Es esencial que las perturbaciones adversarias generadas por un ataque sean factibles, ya que modificaciones drásticas podrían corromper por completo una muestra (Venkatesan et al., 2021).
+
+-Problemas al implementar defensas de Aprendizaje Máquina Adversaria
+
+En cuanto a las estrategias de defensa contra el Aprendizaje Máquina Adversaria, la mayoría de los trabajos en la literatura no presentan medidas de mitigación, a pesar de su creciente reconocimiento (Anthi et al., 2021). Desarrollar medidas de defensa se vuelve un desafío constante, ya que los atacantes idean nuevos métodos para eludirlas, creando un ciclo interminable (Usama et al., 2020). La implementación de soluciones es compleja, requiere comprender tanto las medidas de seguridad como el funcionamiento interno del modelo (Anthi et al., 2021).
+
+Por ejemplo, la medida de mitigación conocida como "Entrenamiento adversario" puede impactar la precisión del modelo si se usan demasiadas muestras, adaptando la clasificación a las tendencias de las perturbaciones adversarias (Simion et al., 2019; Li et al., 2020). A pesar de los desafíos, desarrollar defensas efectivas no es imposible, ya que los atacantes enfrentan limitaciones en su capacidad para atacar un modelo y ha habido avances positivos en este campo (Usama et al., 2020).
+
+Es fundamental que tanto el atacante como el defensor comprendan las restricciones teóricas que influyen en la eficacia de cualquier estrategia y estén dispuestos a explorar soluciones. La intrincación de los ataques de Aprendizaje Máquina Adversaria subraya la importancia de adoptar un enfoque equilibrado y precavido en la seguridad de los modelos de aprendizaje automático. A pesar de los retos, el avance colaborativo en este ámbito es esencial para asegurar que la tecnología progrese de manera ética y segura.
+
+
+Recomendaciones al implementar técnicas de Aprendizaje Máquina Adversaria
+
+A lo largo de este documento, se han presentado diversas estrategias tanto ofensivas como defensivas en el contexto del Aprendizaje Máquina Adversaria. Si se desea implementar estas técnicas, se recomienda consultar las investigaciones individuales de los autores para obtener una comprensión más detallada de la ejecución de cada procedimiento. No obstante, en la literatura existen recomendaciones y pautas generales que son útiles para quienes deseen aplicar cualquiera de las técnicas de Aprendizaje Máquina Adversaria.
+
+Por ejemplo, mantener un registro de las vulnerabilidades es una práctica habitual en ciberseguridad a través de los denominados CVE (Common Vulnerabilities and Exposures). Aunque en el campo del Aprendizaje Máquina Adversaria no se ha establecido un sistema de seguimiento análogo al CVE, sería recomendable registrar las vulnerabilidades en un sistema rastreable similar, según sugieren Siva Kumar et al. (2020).
+
+En cuanto a las defensas de Aprendizaje Máquina Adversaria, Wilhjelm y Younis (2020) destacan la importancia de la propuesta de Microsoft llamada "AI/ML Barra de errores del ciclo de vida del desarrollo de seguridad", que presenta pautas para modelar técnicas de mitigación contra ataques de AML. También proponen la aplicación de esta propuesta a la metodología de seguridad conocida como STRIDE, explorando la identificación de amenazas relevantes para sistemas basados en Aprendizaje Máquina.
+
+Yeboah-Ofori et al. (2021) consideran el uso de la "Ontología de Amenazas Cibernéticas" y el enfoque de Aprendizaje Máquina Adversaria para mejorar el análisis y las predicciones de amenazas de ciberseguridad.
+
+Además, existen herramientas comerciales como Cleverhans y SECML que proporcionan un conjunto de herramientas para la robustez adversa, incluyendo enfoques de caja blanca y pruebas dinámicas de caja negra (Siva Kumar et al., 2020). También hay documentación detallada que permite llevar a cabo ataques de Aprendizaje Máquina Adversaria, como The Adversarial Robustness Toolbox (2018), que ofrece una guía exhaustiva para realizar ataques en Python.
+
+En resumen, las técnicas de Aprendizaje Máquina Adversaria son altamente dependientes del contexto del sistema objetivo, por lo que es esencial tener en cuenta esta variabilidad al experimentar o aplicar estas técnicas. Las pautas y propuestas mencionadas anteriormente ofrecen un sólido punto de partida, pero es fundamental recordar que no existe una solución única y universal en este terreno, y la adaptabilidad es clave. La elección de las estrategias y herramientas debe considerar cuidadosamente el entorno específico y las necesidades del sistema. Estas pautas y propuestas proporcionan un sólido punto de partida para abordar los desafíos de Aprendizaje Máquina Adversaria en ciberseguridad.
+
+
+
+
+
+
